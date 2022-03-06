@@ -39,12 +39,12 @@ public class Main {
                 if (i == j){
                     arr[i][j] = 1;
                 }
-              if (j == arr[i].length - 1 - i){
-                  arr[i][j] = 1;
+                if (j == arr[i].length - 1 - i){
+                    arr[i][j] = 1;
               }
                 System.out.print(arr[i][j] + " ");
             }
-            System.out.println();
+                System.out.println();
         }
     }
     public static int[] comeArr(int len, int initialValue){
